@@ -14,22 +14,22 @@ e cada tema tem uma classe com um metodo main para testar. Abaixo temos os pacot
   
  OBS.: Para entender o cenário leia os comentários nas classes testadas e observe bem o que está sendo feito nelas.
   
-###Testando os cenários
+### Testando os cenários
  
-####Covariância:
+#### Covariância:
    
     mvn clean package -Dmainclass=org.soujava.generics.covariancia.Test 
 
     java -jar target/generics-1.0-SNAPSHOT.jar
     
 
-####Contravariância:
+#### Contravariância:
    
     mvn clean package -Dmainclass=org.soujava.generics.contravariancia.Test 
 
     java -jar target/generics-1.0-SNAPSHOT.jar
 
-####Invariância:
+#### Invariância:
    
     mvn clean package -Dmainclass=org.soujava.generics.invariancia.Test 
 
