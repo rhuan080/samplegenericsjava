@@ -1,4 +1,4 @@
-#Generics com Java
+# Generics com Java
 
 Neste projeto temos alguns exemplos de como funciona as propriedades de variância (covariância, contravariância 
 e invariancia) no Java e como elas impactam o nosso código. Este projeto está dividido em pacotes de acordo com os temas
