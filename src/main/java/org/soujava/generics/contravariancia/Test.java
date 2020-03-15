@@ -18,6 +18,7 @@ public class Test {
 
         System.out.println("--------------------------------------------------------");
 
+        //Adicionando o tipo mais específico permitido pelo método imprimirLista(List<? super Funcionario> list)
         List<Funcionario> funcionarios = new ArrayList<>();
         funcionarios.add(Funcionario.of(21));
         funcionarios.add(Funcionario.of(23));
@@ -26,6 +27,7 @@ public class Test {
 
         System.out.println("--------------------------------------------------------");
 
+        //Adicionando o tipo mais específico na hierarquia de tipos.
         List<Gerente> gerentes = new ArrayList<>();
         gerentes.add(Gerente.of(30));
         gerentes.add(Gerente.of(35));
